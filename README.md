@@ -1,69 +1,68 @@
-📊 Student Mark Management System (C++)
-
+# 💰 Personal Budget Management System (C++)
 📌 Description
 
-This project is a console-based Student Mark Management System developed in C++. It allows users to record, store, and manage students’ academic performance using file handling.
+This project is a console-based Personal Budget Management System developed in C++. It helps users track their income, manage expenses, and analyze spending habits across different categories.
 
-Users can input student details such as first name, last name, and marks for multiple subjects (HCI, OSS, CAL, PRO, and SAD). The system automatically calculates and assigns grades (A–E) based on predefined grading criteria.
+The program allows users to input fixed and variable income, followed by multiple types of expenses. It then calculates total expenses, actual savings, and compares them against a user-defined savings goal.
 
-All records are saved in a text file (studentdata.txt), ensuring that data is preserved even after the program is closed.
+Additionally, users can enter expenses by category such as transportation, food, utilities, medical & healthcare, personal spending, and entertainment. The system computes the percentage distribution of expenses and allocates the remaining budget proportionally based on spending priorities.
 
 ## ✨ Features
-- ➕ Add student marks and automatically generate grades
-- 💾 Store data using file handling (fstream)
-- 📄 Display all student records in a formatted table
-- 🔍 Search student by ID or name
-- 📚 Pagination for large datasets
-- ✅ Input validation (marks must be between 0–100)
+- 💵 Calculate total income (fixed + variable)
+- 📉 Track fixed and variable expenses
+- 🎯 Compare actual savings with savings goal
+- 📊 Categorize expenses into 6 categories
+- 📈 Calculate percentage of each expense category
+- 💡 Automatically allocate remaining budget based on spending distribution
 
 ## 🛠️ Technologies Used
 - C++
-- File Handling (ifstream, ofstream)
-- Structures (struct)
-- Arrays
+- Standard Libraries (iostream, iomanip, cmath)
+- Functions & Modular Programming
 
 ## ▶️ How to Run
 
-Clone this repository:
+Clone the repository:
+```
+git clone https://github.com/your-username/budget-management-system.git
+Open in your C++ IDE (e.g., Visual Studio / Code::Blocks)
 
-git clone https://github.com/JiaPoh1/Personal-Budget-Management-and-Expense-Analysis-System-Sem-1.git
-Open the project in your C++ compiler (e.g., Visual Studio / Code::Blocks)
-
-Compile and run the program:
+Compile and run:
 
 g++ main.cpp -o program
 ./program
-### 🖥️ Sample Output
-========================================
-    STUDENT MARK SYSTEM
-
-1. Add Mark
-2. Display Record
-3. Search Record
-4. Exit
-
-Example:
-
-Please enter your name (first name, last name): John Doe
-
-Please enter your marks for subject HCI : 80
-
-Please enter your marks for subject OSS : 65
-...
-
-## 📁 File Structure
 ```
-📦 Student-Mark-System
-├── main.cpp
-├── studentdata.txt
-└── README.md
- ```
+## 🖥️ Sample Output
+- Enter your fixed income: 2000
+- Enter your variable income: 500
+- Enter your savings goal: 1000
+
+--- Results ---
+
+Total Income: RM2500
+
+Total Expenses: RM1800
+
+Actual Savings: RM700
+
+Savings goal not met. Deficit: RM300
+
+## 📊 Categories Included
+- 🚗 Transportation
+- 🍔 Food
+- 💡 Utilities
+- 🏥 Medical & Healthcare
+- 🛍️ Personal Spending
+- 🎮 Entertainment
+- 
 ## ⚠️ Notes
-- Ensure studentdata.txt exists in the same directory as the program
-- The program runs in the console (no GUI)
-- Works best on Windows (uses system("cls") for screen clearing)
+- This is a console-based program (no GUI)
+- Some parts use global variables (can be improved)
+- Works best in environments that support standard C++ input/output
+
 ## 🚀 Future Improvements
-- Add GUI (e.g., using Qt or C#)
-- Improve search functionality (partial match, case-insensitive)
-- Use database instead of text file
-- Add edit/delete student records
+- Replace global variables with structured data (struct/class)
+- Add file storage for saving user data
+- Improve UI/UX (menu system or GUI)
+- Add charts/visualization of expenses
+- Reduce repetitive functions using loops or arrays

@@ -24,7 +24,7 @@ Additionally, users can enter expenses by category such as transportation, food,
 
 Clone the repository:
 ```
-git clone https://github.com/your-username/budget-management-system.git
+git clone https://github.com/JiaPoh1/Personal-Budget-Management-and-Expense-Analysis-System-Sem-1.git
 Open in your C++ IDE (e.g., Visual Studio / Code::Blocks)
 
 Compile and run:
@@ -54,7 +54,7 @@ Savings goal not met. Deficit: RM300
 - 🏥 Medical & Healthcare
 - 🛍️ Personal Spending
 - 🎮 Entertainment
-- 
+  
 ## ⚠️ Notes
 - This is a console-based program (no GUI)
 - Some parts use global variables (can be improved)

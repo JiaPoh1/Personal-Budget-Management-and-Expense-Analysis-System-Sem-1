@@ -34,7 +34,9 @@ g++ main.cpp -o program
 ```
 ## 🖥️ Sample Output
 Enter your fixed income: 2000
+
 Enter your variable income: 500
+
 Enter your savings goal: 1000
 
 --- Results ---

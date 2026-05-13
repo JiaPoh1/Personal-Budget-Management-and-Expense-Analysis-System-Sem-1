@@ -185,22 +185,9 @@ Category budget personal spending: RM225.00
 
 Category budget entertainment: RM0.00
 
-## 📊 Categories Included
-- 🚗 Transportation
-- 🍔 Food
-- 💡 Utilities
-- 🏥 Medical & Healthcare
-- 🛍️ Personal Spending
-- 🎮 Entertainment
   
 ## ⚠️ Notes
 - This is a console-based program (no GUI)
 - Some parts use global variables (can be improved)
 - Works best in environments that support standard C++ input/output
 
-## 🚀 Future Improvements
-- Replace global variables with structured data (struct/class)
-- Add file storage for saving user data
-- Improve UI/UX (menu system or GUI)
-- Add charts/visualization of expenses
-- Reduce repetitive functions using loops or arrays
